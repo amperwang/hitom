@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+html, body {
+	font-family: 'Raleway', sans-serif; font-size: 100%;
+	background: #28282f;
+}
+
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.grids {
+    padding: 10em 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.trans {
+    opacity: 0.8
+}
+
+/*--Responsive*--*/
+@media (max-width:1440px) {
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 725px;
+}
+}
+
+@media (max-width:1366px) {
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 650px;
+}
+}
+
+@media (max-width:1280px) {
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 662px;
+}
+}
+
+@media (max-width:1024px) {
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 459px;
+}
+}
+
+@media (max-width:768px) {
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 398px;
+}
+}
+
+@media (max-width:640px) {
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 346px;
+}
+}
+
+@media (max-width:480px) {
+.container { width: 320px; }
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 222px;
+}
+}
+
+@media (max-width:320px) {
+.header {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 172px;
+}
+}
